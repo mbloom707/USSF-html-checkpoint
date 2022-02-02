@@ -1,0 +1,59 @@
+/* Navbar Background */
+.navbar {
+  background-color: rgb(255, 204, 122);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Link Styles */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* Navbar Sitename Style */
+.navbar .siteName {
+  font-weight: bold;
+  font-size: 24px;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Active Link Style */
+.navbar a.active {
+  color: rgba(104, 104, 104, 0.486);
+}
+
+/* Link Hovering Style */
+.navbar a:hover {
+  color:rgb(131, 131, 131);
+}
+
+/* Search Bar Position and Style */
+.navbar .search {
+  float: right;
+  color:black;
+  text-align: right;
+  padding: 15px;
+  font-size: 18px;
+}
+
+/* Styling for Main Body */
+.login {
+  padding: 10%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+}
+.login .credentials {
+  margin-left: 35%;
+  text-align: left;
+}
